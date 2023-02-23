@@ -17,9 +17,10 @@ class Book:
             f"{self.book}:'The Way to succeed'",
         ]
         print(f"{self.name} взял книгу {self.book}")
-
-
-take1=Book()
+take1=Book("Jame", "The Way to succeed")
+print(take1)
 take1.take_book()
+
+
 
 
